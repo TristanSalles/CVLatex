@@ -1,2 +1,2 @@
-# CVLatex
-My CV with Latex
+# CV
+my CV template in latex

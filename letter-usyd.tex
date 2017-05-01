@@ -1,0 +1,125 @@
+%% start of file `letter.tex'.
+%% Copyright 2006-2010 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[11pt]{article}
+
+
+\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{marvosym}
+\usepackage{ifpdf}
+\ifpdf
+  \usepackage[pdftex]{graphicx}
+\else
+  \usepackage[dvips]{graphicx}\fi
+
+\pagestyle{empty}
+
+\usepackage[scale=0.8]{geometry}
+\setlength{\parindent}{0pt}
+\addtolength{\parskip}{6pt}
+
+\def\firstname{John}
+\def\familyname{Doe}
+\def\FileAuthor{\firstname \familyname}
+\def\FileTitle{\firstname \familyname's cover letter}
+\def\FileSubject{Cover letter}
+\def\FileKeyWords{\firstname \familyname, Cover letter}
+
+\usepackage{url}
+\renewcommand{\ttdefault}{pcr}
+\urlstyle{tt}
+\ifpdf
+  \usepackage[pdftex,pdfborder=0,breaklinks,baseurl=http://,pdfpagemode=None,pdfstartview=XYZ,pdfstartpage=1]{hyperref}
+  \hypersetup{
+    pdfauthor   = \FileAuthor,%
+    pdftitle    = \FileTitle,%
+    pdfsubject  = \FileSubject,%
+    pdfkeywords = \FileKeyWords,%
+    pdfcreator  = \LaTeX,%
+    pdfproducer = \LaTeX}
+\else
+  \usepackage[dvips]{hyperref}
+\fi
+
+\renewcommand{\familydefault}{\sfdefault}% for use with a résumé using sans serif fonts;
+%\renewcommand{\familydefault}{\rmdefault}% for use with a résumé using sans serif fonts;
+
+\begin{document}
+\hfill%
+\begin{minipage}[t]{.6\textwidth}
+\raggedleft%
+{\bfseries \small Dr. Tristan Salles}\\[.35ex]
+\small\itshape%
+CSIRO Earth Sciences Centre, \\
+11 Julius Avenue, 2113 North Ryde, \\
+NSW, Australia\\[.35ex]
+\Telefon~+61 4 5754 4501\\
+\Letter~{tristan.salles@csiro.au}
+\end{minipage}\\[1em]
+%
+\begin{minipage}[t]{.94\textwidth}
+\raggedright%
+{\bfseries The University of Sydney}\\[.0ex]
+\small\itshape%
+School of Geosciences
+\end{minipage}
+\hfill % US style
+%\\[1em] % UK style
+\begin{minipage}[t]{.4\textwidth}
+\raggedleft % US style
+\today
+%April 6, 2006 % US informal style
+%05/04/2006 % UK formal style
+\end{minipage}\\[2em]
+\begin{minipage}[t]{.7\textwidth}
+\raggedright%
+\vspace{-0.5cm}
+%\textit{Position application:} \textbf{Professorial Chair in Computational Geoscience}
+\end{minipage}
+
+Dear Professor Aitchison,\\
+
+I have always been curious and passionate about quantifying and understanding the natural phenomena that shape the Earth surface, and this curiosity has driven my research since my postgraduate years, up to my current geomorphologist and computer geoscientist position with CSIRO.\\
+
+Prior to my Ph.D., I did a double degree in Marine Engineering (M.Eng.) and Physical Oceanography (M.Sc.) from which I gained a solid expertise in marine and environmental sciences, computer sciences and coastal hydrodynamics. \\
+
+My Ph.D. research focused on formation and filling of sub-marine canyons and meandering channels by gravity flows.  Over this project, I familiarised myself with stratigraphy, sedimentary processes and sediment transport to the coast and from coast to deep basin.  I used my expertise in computer sciences to combined different numerical techniques to simulate gravity processes at both reservoir and geological scales. In 2007, I patented a novel approach  based on Cellular Automata model. Since 2008, a joint industry consortium has been developed around my Ph.D. work by the French Petroleum Institut (IFPEN).\\
+
+In 2007, I joined CSIRO as a post-doctoral research fellow to improve and build new capabilities in a stratigraphic forward model called \textit{Sedsim} which was originally developed at Stanford University. I worked on multiple improvements including an aeolian module based on Cellular Automata approach, a mathematical modelling of compaction and diagenesis in sedimentary basins and on the simulation of climate change impact on Australian coastal ecosystems.\\
+
+In 2008, I was offered a permanent position as a Research Scientist at CSIRO. I have carried both fundamental and applied research and have been instrumental in several CSIRO themes \& flagships such the Energy flagship, Mineral Down Under Flagship and the Wealth from Ocean flagship. My work has been recognised by world-class researchers and I have been directly involved in world-leading national \& international scientific initiatives such as the ARC Basin Genesis Hub. \\
+
+Since 2012, I am CSIRO science \& technical leader for the design and implementation of the next generation of Surface Process Framework based on High Performance Computing architectures to study and quantify the importance of (i) climate change on sediment transport, (ii) geodynamics and surface processes feedback mechanisms, and (iii) coupled sediment-ocean-wave modelling system at geological scale. The strategic goal of this numerical framework is articulated around innovative science, national and international collaborations, and strong Industry outreach. \\
+
+Although I collaborate with academia and publish innovative research, my position with CSIRO largely constrains me to work on projects for the industry and publish confidential reports. I am eager to move to a stimulating academic environment where I could share my expertise with my peers and conduct fundamental research, publish and further contribute bridging deep Earth processes to surface processes. \\
+
+I feel my solid experience and education could bring many benefits to the School of Geosciences of the University of Sydney and would be a perfect opportunity to take this next step in my career. \\
+
+During my PhD years, I acted as Teaching Assistant in a number of courses. In CSIRO, I have continued my engagement with teaching by developing and delivering post-graduate short courses and training workshops. I have contributed to the co-supervision of several postgraduate students, and in 2010, I have published a textbook on marine sedimentary processes. In the School of Geosciences, I could further develop my teaching and advisor skills by being instrumental in several of the Geology \& Geophysics and Marine Science units of study already existing within the School. \\
+
+The recognition that aspects of surface topography, hydrogeology, oceanography and even climate and atmospheric processes are linked to the deep Earth and to the geometry of tectonic plates requires broad-based, collaborative research. These types of collaborations have faced challenges within existing institutional structures and funding models even though they are increasingly recognised as essential for solving many critical problems facing society. I would provide the School with a surface process model to simulate sediment transport at geological time scale and together we would pioneer new methods for the physical integration of  numerical models already existing in the School. I would contribute to facilitate integrative \& multidisciplinary research and propose a new numerical framework that can have a transformative effect on the way geoscience research is currently conducted. The School would offer a stimulating research and teaching environment in which I could thrive as a geologist and computer geoscientist. \\
+
+Over my time in CSIRO, I established an extensive network within the resource sector (Mineral and Oil \& Gas) and successfully generated and delivered projects to our clients. Over the last year, I have been in discussion with Chevron regarding a 3 years projects (over \$1M) around surface processes, ocean dynamics and tectonic modelling. I will leverage the University of Sydney initial investment in opening an Academic position by bringing this project to the School and use this fund to pursue the development of a unified Earth system modelling infrastructure that will galvanise, inspire and promote the work currently done in the School. It will participate in the international geoscience effort and help build a better understanding of Earth's processes and their interlinks. \\
+
+I look forward to hearing from you and should you have any queries, please do not hesitate to contact me.
+\\
+%Yours sincerely,\\[2em] % if the opening is "Dear Mr(s) Doe,"
+Sincerely yours,\\[1em] % if the opening is "Dear Sir or Madam,"
+%
+\begin{minipage}[t]{1.\textwidth}
+\raggedleft%
+\includegraphics[scale=0.15]{signature}\\
+{\small Tristan Salles}\\
+\end{minipage}\\[0.25em]
+%
+%\vfill%
+{\slshape Enclosure}
+{\vspace{-0.5cm} \small \slshape Attachment: curriculum vit\ae{}}
+\end{document}
