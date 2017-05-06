@@ -1,0 +1,176 @@
+\documentclass[10pt,a4paper,sans]{moderncv}
+% moderncv styles
+%\moderncvstyle{casual}
+\moderncvstyle{casual}     
+%\moderncvstyle{classic}
+%\moderncvstyle[roman]{classic}
+\moderncvcolor{blue} 
+\moderncvicons{awesome}                              
+% character encoding
+\usepackage[applemac]{inputenc}
+\usepackage{fontawesome}
+
+\setlength\arrayrulewidth{.4pt}
+\setlength\tabcolsep{5pt}
+
+\usepackage[scale=0.9]{geometry}
+
+\usepackage{fontawesome}
+
+\moderncvicons{awesome}
+
+%\renewcommand*{\addresssymbol}       {}
+
+% personal data
+\name{Tristan}{Salles}
+\title{Research Scientist - Quantitative Geosciences}
+\address{Research Scientist}{Quantitative Geosciences} {} 
+\phone[none]{ Tristan Salles}
+
+\definecolor{color1}{rgb}{0.22,0.45,0.70}% light blue
+
+\photo[70pt][0.0pt]{face} 
+\AtBeginDocument{
+    \hypersetup{colorlinks, urlcolor=color1}
+}
+
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+\makecvtitle
+\social[github]{tristan-salles}
+\vspace{-2.5em}
+
+\section{Personal details}
+\cvitem{Civility}{Tristan Salles (Ph.D.)  \hspace{0.6em} French, Australian \hspace{0.6em} DOB: 10/10/1979} 
+
+%\cvitem{Languages}{French: native | English: fluent}
+\cvitem{Contact}{Rm 454, Madsen F09, University of Sydney, NSW 2006, Australia \hspace{0.6em}  \mobilephonesymbol +61 4 5146 2502 
+\hfill{}\break \emailsymbol \emaillink[tristan.salles@sydney.edu.au]{tristan.salles@sydney.edu.au} 
+\hspace{0.6em} \githubsocialsymbol \link[tristan-salles]{https://github.com/tristan-salles} \hspace{0.6em} \linkedinsocialsymbol  \link[tristan-salles]{http://www.linkedin.com/in/sallestristan} \hspace{0.6em} \homepagesymbol \link[homepage]{https://tristansalles.github.io}}
+
+
+%\vspace{1.5em}
+%-----------------------------------------------
+%\section{Areas of expertise}
+\vspace{0.5em}
+{\par\color{color2!50}\rule{\textwidth}{.25ex}\par}
+\vspace{0.5em}
+
+I am a lecturer in \textbf{Geophysics} at the School of Geosciences, University of Sydney. My research fields are in \textbf{computational geosciences} with application areas in sediment transport dynamics, Earth surface evolution, and deep time interactions between climate, ocean \& geomorphology. I am an expert in \textbf{quantitative methods} based on forward modelling, \textbf{data query}, transformation \& visualisation, \textbf{algorithm design}, and parallelism.
+\vspace{0.5em}
+
+%-----------------------------------------------
+\section{Work experience}
+
+%\vspace{0.5em}
+\cventry{2015--present}{Academic Position}{University of Sydney}{\hfill{} \break School of Geosciences}{\link[EarthByte]{https://www.earthbyte.org/} \& \link[Geocoastal]{https://grgusyd.org/} Research Groups}{Lecturer --  Permanent Academic Staff -- 40\% Research, 40\% Teaching \& 20\% Administration }
+
+\cvitem{}{\small \vspace{-0.3cm}\begin{itemize}
+\item HPC model of coupled sediment-ocean-wave modelling system at geological scale
+\item Parallel finite volume model to study landscape dynamics
+\item Ecological model of climate change impact on coral reefs evolution (integrated fuzzy logic/finite element method)
+\item Teaching for Undergraduates \& Postgraduates (part of my teaching is available at \link[GeosLearn]{https://geoslearn.github.io/}
+\item Open Learning initiative: Data Science - Analysing and plotting data with R \& Python
+\item Faculty of Science ICT Committee Research Representative
+\item Supervision of PhDs, Honours, Research Assistants \& Developers
+\end{itemize}}
+\vspace{-1.em}
+
+\cventry{2008--2015}{Senior Research Scientist}{CSIRO Earth Sciences \& Resources Engineering}{\hfill{}\break Earth Sciences Centre}{Computational Geoscience group, Technical Algorithms team}{Project leader for HPC Geosciences projects}
+\cvitem{}{\small \vspace{-0.3cm}\begin{itemize}
+\item Software architect -- Implementation of an Advance Earth Dynamic Coalescence Framework using ESMF standard
+\item Integrated Stratigraphy/Seismic Probing/Data Assimilation
+\item Parallel surface process model: conception \& development under CSIRO Science Innovation Fund
+%\end{itemize}}
+%\vspace{-1.em}
+%
+%\cventry{2008--2012}{Research Scientist}{CSIRO Earth Science \& Resources Engineering}{\hfill{}\break Australian Resources Research Centre}{Predictive Geoscience group}{Worked on the implementation of new parallel algorithms to simulate Earth Surface evolution over millions of years \hfill{}\break Designed workflow to visualise 3D Geological dataset}
+%\cvitem{}{\small \vspace{-0.3cm}\begin{itemize}
+\item Design and development of a parallel Lagrangian hydrodynamic model
+\item Parallel 3D visualisation based on Hdf5, XmF and XdmF formats for geophysical dataset
+\item Quantitative estimation of sea-level and halokinetics variations impact on mini-basin filling
+\end{itemize}}
+\vspace{-1.em}
+
+\cventry{2007--2008}{Postdoctoral Fellow}{CSIRO Wealth from Ocean Flagship}{\hfill{}\break Australian Resources Research Centre}{Predictive Geoscience group}{Design and development of new capabilities in CSIRO Stratigraphic Forward Modelling software  \hfill{}\break Quantitative seabed evolution under climate change \& its implications for coastal resources and infrastructure management}
+\cvitem{}{\small  \vspace{-0.3cm}\begin{itemize} 
+\item Development of an aeolian module based on Cellular Automata paradigm
+\item Predictive assessment of how climate change influences long-term regional seabed responses
+\item Mathematical model of compaction and diagenesis using predictor/corrector implicit finite-difference method
+\end{itemize}}
+\vspace{-1.em}
+
+\cventry{2002--2002}{Internship}{EDF R\&D LNHE}{}{}{Laboratory model design and scaling  \hfill{}\break 
+Numerical evaluation of wave forcings on offshore wind piles}
+
+\cvitem{}{\small  \vspace{-0.3cm}\begin{itemize} 
+\item Data processing and upscaling
+\item Wave flume tank experimental model
+\item Numerical wave modelling
+\end{itemize}}
+\vspace{-1.5em}
+
+%-----------------------------------------------
+\section{Skills}
+
+\cvcomputer{\textbf{Programming}}{Fortran, Python, C, CSS, HTML, MPI}{\textbf{Visualisation}}{VTK, NetCDF, HDF5, XMF, XDMF}
+\cvcomputer{\textbf{Data Query}}{OpenDAP, THREDDS}{\textbf{Deployment}}{Docker, AWS, Jupyter Notebooks}
+\cvcomputer{\textbf{Comp. Geometry}}{Triangular Irregular Network, Voronoi Diagram, Adaptive Mesh Refinment }{}{}
+
+%-----------------------------------------------
+\section{Education}
+%\vspace{0.5em}
+\cventry{2017--2018}{Graduate Certificate in Educational Studies (Higher Education)}{University of Sydney}{}{}{}
+\vspace{1.em}
+
+\cventry{2003--2006}{Computational Geology -- PhD}{ University of Bordeaux \& Institut Fran\c cais du P\'etrole IFP (France)}{}{}{Modelling sub-marine canyons and meandering channels using a genetic approach}
+\cvitem{}{\emph{Navier-Stokes equations -- Lattice-Boltzmann methods -- Cellular Automata approach}}
+\vspace{1.em}
+
+\cventry{2002--2003}{Physical Oceanography, Honours}{University of Aix-Marseille II}{}{}{HD - This formation provides solid knowledge in Oceanography \& Coastal numerical modelling}
+\cvitem{}{\emph{Marine/environmental science -- Coastal dynamics -- Turbulence -- Remote detection}}
+\vspace{1.em}
+
+\cventry{2000--2003}{Marine Engineering, Master of Science \& Engineering}{Ecole Centrale Marseille}{}{}{Hons -- Multi-disciplinary formation that provides solid knowledge in Mathematics \& Physics}
+\cvitem{}{\emph{Ocean hydrodynamics -- Computational physics -- Numerical methods -- Experimental hydrodynamics}}
+
+
+%-----------------------------------------------
+\section{Honours \& Awards}
+\cventry{2017}{Scientific Mobility Fund}{University of Bergen (Norway)}{}{}{}
+\cventry{2016}{Scientific Mobility Fund}{University of Bergen (Norway)}{}{}{}
+\cventry{2003--2006}{CIFRE Top-up Scholarship IFPEN}{research grant from IFPEN}{}{}{}
+\cventry{2003--2006}{ANRT Scholarship French Government}{Education \& Research funding from the French Government}{}{}{}
+
+%-----------------------------------------------
+\section{Peer-Reviewed Publications \& Talks} 
+
+\cvitem{}{A Complete list of my publications, talks \& current research projects is available from my  \homepagesymbol \link[homepage]{https://tristansalles.github.io}}
+
+\cvitem{\textbf{Papers since 2016}}{\small  \textbf{Salles T.}, Flament N., Muller D., 2017.  \textit{Influence of mantle flow on the drainage of eastern Australia since the Jurassic Period}. Geochem. Geophys. Geosyst.}
+
+\cvitem{ }{\small  \textbf{Salles T.}, 2016. \textit{Badlands: A parallel basin and landscape dynamics model}. SoftwareX, 5, 195-202.}
+
+\cvitem{ }{\small  \textbf{Salles T.}, Hardiman. L.., 2016. \textit{Badlands: an open-source, flexible and parallel framework to study landscape dynamics}. Computers and Geosciences}
+
+\cvitem{\textbf{Patent}}{\small \textbf{Salles T.}, Lopez S., Joseph P., Cacas M.C., 2007. \textit{Use of the stable condition of cellular automata exchanging energy to model sedimentary architectures}, EP1837683.}
+
+\cvitem{\textbf{Talks in 2017}}{\textbf{T. Salles}, 2017. \textit{Responses of reefs to climatic forcing -- A numerical perspective}, Centre for Coral Reef Studies, USyd.}
+
+\cvitem{}{\small \textbf{T. Salles}, N. Flament, D. Muller, P. Rey, 2017. \textit{Influence of dynamic topography on the evolution of the Australian landscape since the Late Jurassic}, Workshop in High Performance Computing, EAGE IFP Paris.}
+
+\cvitem{}{\small \textbf{T. Salles}, N. Flament, D. Muller, 2017. \textit{150 Million years of landscape evolution of eastern Australian continent}, European Geophysical Union General Assembly Vienna, Austria.}
+
+\cvitem{}{\small X. Ding, \textbf{T. Salles}, N. Flament, P. Rey, 2017. \textit{Influence of dynamic topography on landscape evolution and passive continental margin stratigraphy}, European Geophysical Union General Assembly Vienna, Austria.}
+
+%-----------------------------------------------
+\section{Interests}
+\cventry{Outdoor}{Running / Hiking / Surfing}{}{}{}{}
+\cventry{Volunteer Work}{Surf Life Saver}{Surf Life Saving Australia}{Patrolling Maroubra Beach and participating in lifesaving operations
+Awarded 'Bronze Medaillon / Certificate II in Public Safety' (Aquatic Rescue)}{}{}
+
+%-----------------------------------------------
+
+\end{document}
